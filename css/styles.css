@@ -1,0 +1,101 @@
+body {
+  background-color: #f7fbfc;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: #578ece;
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  font-weight: normal;
+  color: #578ece;
+}
+
+a {
+  color: #578ece;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #d6e6f2;
+  border-width: 8px;
+  width: 4%;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+img {
+  position: relative;
+  max-width: 100%;
+}
+
+div {
+  width: auto;
+  overflow: hidden;
+}
+
+.top-container {
+  background-color: #d6e6f2;
+  padding-top: 50px;
+}
+
+.middle-container {
+  background-color: #f7fbfc;
+}
+
+.skills {
+  background-color: #f7fbfc;
+  /* #c0ddf3 */
+}
+
+.hobbies {
+  background-color: #f7fbfc;
+}
+
+.bottom-container {
+  background-color: #d6e6f2;
+}
+
+.cloud{
+  position: relative;
+  filter: brightness(1.2);
+}
+
+.cloud-left {
+  right: min(20%, 250px);
+  top: 250px;
+}
+
+.cloud-right {
+  top: 25px;
+  left: min(20%, 250px);
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 178px;
+}
+
+.code-img {
+  width: 178px;
+}
+
+.karate-img {
+  width: 178px;
+}
+
+.skateboard-img {
+  width: 178px;
+}
