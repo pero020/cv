@@ -108,17 +108,17 @@ div {
 }
 
 .code-img {
-  width: max(15%, 172px);
+  width: max(15%, 128px);
 }
 
 .karate-img {
-  width: max(15%, 172px);
+  width: max(15%, 128px);
   float: left;
   margin-right: 25px;
 }
 
 .skateboard-img {
-  width: max(15%, 172px);
+  width: max(15%, 128px);
   float: left;
   margin-right: 25px;
 }
