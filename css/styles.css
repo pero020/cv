@@ -66,7 +66,7 @@ div {
 }
 
 .skill-row {
-  width: 75%;
+  width: 50%;
   margin: auto;
   line-height: 2;
 }
@@ -93,32 +93,32 @@ div {
 }
 
 .cloud-left {
-  right: min(20%, 250px);
+  right: min(15%, 250px);
   top: 250px;
 }
 
 .cloud-right {
   top: 25px;
-  left: min(20%, 250px);
+  left: min(15%, 250px);
 }
 
 .profile-img {
   border-radius: 50%;
-  width: 178px;
+  width: 172px;
 }
 
 .code-img {
-  width: 25%;
+  width: max(15%, 172px);
 }
 
 .karate-img {
-  width: 25%;
+  width: max(15%, 172px);
   float: left;
   margin-right: 25px;
 }
 
 .skateboard-img {
-  width: 25%;
+  width: max(15%, 172px);
   float: left;
   margin-right: 25px;
 }
