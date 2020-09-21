@@ -26,7 +26,7 @@ hr {
   border-style: dotted none none none;
   border-color: #d6e6f2;
   border-width: 8px;
-  width: 4%;
+  width: 48px;
 }
 
 
@@ -55,13 +55,32 @@ div {
   background-color: #f7fbfc;
 }
 
+.profile {
+  margin: 50px auto 50px auto;
+}
+
 .skills {
   background-color: #f7fbfc;
   /* #c0ddf3 */
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  width: 75%;
+  margin: auto;
+  line-height: 2;
 }
 
 .hobbies {
   background-color: #f7fbfc;
+  margin: 50px auto 50px auto;
+}
+
+.hobbies-row {
+  width: 75%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .bottom-container {
@@ -89,13 +108,17 @@ div {
 }
 
 .code-img {
-  width: 178px;
+  width: 25%;
 }
 
 .karate-img {
-  width: 178px;
+  width: 25%;
+  float: left;
+  margin-right: 25px;
 }
 
 .skateboard-img {
-  width: 178px;
+  width: 25%;
+  float: left;
+  margin-right: 25px;
 }
