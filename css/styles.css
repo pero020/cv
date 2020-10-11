@@ -12,13 +12,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-weight: normal;
   color: #578ece;
 }
 
 a {
-  color: #578ece;
   text-decoration: none;
 }
 
@@ -34,7 +34,6 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-
 
 img {
   position: relative;
@@ -53,6 +52,7 @@ div {
 
 .middle-container {
   background-color: #f7fbfc;
+  margin-bottom: 50px;
 }
 
 .profile {
@@ -71,9 +71,13 @@ div {
   line-height: 2;
 }
 
+.skill-desc {
+  height: 72px;
+}
+
 .hobbies {
   background-color: #f7fbfc;
-  margin: 50px auto 50px auto;
+  margin: 50px auto 0px auto;
 }
 
 .hobbies-row {
@@ -85,9 +89,10 @@ div {
 
 .bottom-container {
   background-color: #d6e6f2;
+  padding: 50px auto 50px auto;
 }
 
-.cloud{
+.cloud {
   position: relative;
   filter: brightness(1.2);
 }
@@ -108,17 +113,65 @@ div {
 }
 
 .code-img {
-  width: max(15%, 128px);
+  width: max(15%, 156px);
 }
 
 .karate-img {
-  width: max(15%, 128px);
+  width: max(15%, 156px);
   float: left;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
 .skateboard-img {
-  width: max(15%, 128px);
+  width: max(15%, 156px);
   float: left;
-  margin-right: 25px;
+  margin-right: 50px;
+}
+
+.contact-me {
+  margin: 50px auto 0px auto;
+  line-height: 1.5;
+}
+
+.contact-me-btn {
+  background: linear-gradient(to bottom, #d6e6f2 5%, #578ece 100%);
+  background-color: #f7fbfc;
+  border-radius: 18px;
+  border: 1px solid #f7fbfc;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #d6e6f2;
+}
+
+.contact-me-btn:hover {
+  background: linear-gradient(to bottom, #d6e6f2 5%, #4785cc 100%);
+  background-color: #578ece;
+}
+
+.contact-me-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.social-links {
+  margin: 25px auto 25px auto;
+}
+
+.footer-link {
+  margin: auto 25px auto 25px;
+  color: #578ece;
+}
+
+.footer-link:hover {
+  color: #4785cc;
+  font-weight: 500;
+}
+
+.credits {
+  color: white;
+  font-weight: bold;
 }
